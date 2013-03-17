@@ -1,0 +1,9 @@
+package gwt.html5.video.client.handlers;
+
+import com.google.gwt.event.shared.EventHandler;
+
+import gwt.html5.video.client.events.VideoTimeUpdateEvent;
+
+public interface VideoTimeUpdateHandler extends EventHandler {
+    void onTimeUpdated(VideoTimeUpdateEvent event);
+}
